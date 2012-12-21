@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Html Code Finder</title>
+	<%= stylesheet_link_tag "application", :media => "all" %>
+	<link href="//get.pictos.cc/fonts/397/15" rel="stylesheet" type="text/css" />
+	<%= javascript_include_tag "application" %>
+	<%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="table">
+		<div class="row">
+			<div class="cell">
+				<h1>
+					<a href="#"><span aria-hidden="true" data-icon="C"></span>
+					Codegrabb<em>.er</em></a>
+				</h1>
+				<%= yield %>
+			</div>
+		</div>
+	</div>
+	<h3>&copy; 20-something @jefffis</h3>
+	<div class="table extra">
+		<div class="row">
+			<div class="cell">
+				<p id="selected">fefe</p>
+				<span aria-hidden="true" data-icon="x"></span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

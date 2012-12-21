@@ -1,0 +1,9 @@
+<%= form_tag :controller => 'htmlcodes', :action => 'search', :method => 'get' do %>
+	<label for="query"><em>Start typing what you&rsquo;re looking for:</em>
+		<%= text_field_tag :query, params[:query], :id => 'query', :autocomplete => 'off', :placeholder => 'an em dash perhaps?' %>
+		<span aria-hidden="true" data-icon="x" id="clear"></span>
+	</label>
+	<%#= submit_tag "Get a searchin'", :name => nil %>
+	<div class="load" id="load"><%= image_tag('load.gif') %></div>
+<% end %>
+<div id="results" class="results"></div>

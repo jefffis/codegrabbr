@@ -1,0 +1,46 @@
+<div id="search" class="search">
+	<% if @htmlcodes.length > 0 %>
+	<p><strong>Shweet, we got some results.</strong> Click the character you want for both the Unicode &amp; HTML code entities.</p>
+	<!--<p><strong>Or narrow the search</strong> further if you need to.</p>-->
+	<ul>
+		<!--<li class="first">
+			<span>Name</span>
+			<span>Unicode</span>
+			<span>HTML</span>
+			<span>Rendered</span>
+		</li>-->
+		<%
+		i = 0
+		@htmlcodes.each_with_index do |h,i| %>
+		<li class="<% if i==0 %>top<% end %> <% if i==@htmlcodes.length-1 %>none<% end %>">
+			<!--<span class="name"><%= h.name %>&nbsp;&nbsp;<code><%= raw(h.outputcode) %></code>
+				<em>
+					<span>Copy</span>
+					<span aria-hidden="true" data-icon="c" class="icon"></span>
+				</em>
+			</span>
+			<span class="full">
+				<%= h.description.html_safe %>
+			</span>
+			<div class="cf">
+				<code><strong>Uni Code:</strong> <%= h.unicode %></code>
+				<code><strong>HTML Code:</strong> <%= h.htmlcode %></code>
+			</div>-->
+			
+			<span class="simple">
+				<%= h.name %><% if !h.outputcode.blank? %><code><%= raw(h.outputcode) %></code><% end %>
+				<!--<span aria-hidden="true" data-icon="c" class="icon"></span>-->
+				<div class="copy-info">
+					<em>Unicode:</em> <code><%= h.unicode %></code> <em>HTML Code:</em> <code><%= h.htmlcode %></code><br />
+					<em>Description:</em> <em class="norm"><%= h.description.html_safe %></em>
+				</div>
+			</span>
+			
+		</li>
+		<% i+=1 %>
+		<% end %>
+	</ul>
+	<% else %>
+	<p><strong>Shucks</strong>, there ain&rsquo;t no results for that&hellip;<strong>try again.</strong></p>
+	<% end %>
+</div>
