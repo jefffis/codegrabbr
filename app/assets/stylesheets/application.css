@@ -251,6 +251,20 @@ li {
 	padding:0;
 	margin:0;
 }
+
+.load {
+	display:none;
+	position:relative;
+}
+.load img {
+	position:absolute;
+	right:2.1em;
+	top:-7em;
+	display:block;
+	background:white;
+	padding:.25em;
+}
+
 /*li span {
 	font-weight:bold;
 }

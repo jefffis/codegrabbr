@@ -17,6 +17,7 @@ $(function(){
     var form = $('form');
     var search = $('input');
     var clear = $('#clear');
+    var load = $('#load'); 
 
     search.on('keyup',function(){
         var $this = $(this);
@@ -26,15 +27,18 @@ $(function(){
         var url_full = url[0] + '?query=' + query;
         //alert(url_full);
         clear.show();
+        load.show();
 
         if(query===''){
             //results.html('<p>Type somthin&rsquo; homey.</p>');
             results.html('').fadeOut();
+            load.hide();
         }else{
             $.ajax({
                 url: url_full, type: 'get', dataType: 'html',
                 processData: false,
                 success: function(data){
+                    load.hide();
                     results.html($(data).find('#search')).fadeIn();
                     $.getScript('/assets/results.js');
                     //$.getScript('/assets/zeroclipboard.js');
