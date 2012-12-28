@@ -17,7 +17,12 @@ $(function(){
     var form = $('form');
     var search = $('input');
     var clear = $('#clear');
-    var load = $('#load'); 
+    var load = $('#load');
+    var logo = $('h1 a');
+
+    logo.on('click',function(){
+        search.focus();
+    });
 
     search.on('keyup',function(){
         var $this = $(this);
@@ -33,6 +38,7 @@ $(function(){
             //results.html('<p>Type somthin&rsquo; homey.</p>');
             results.html('').fadeOut();
             load.hide();
+            clear.hide();
         }else{
             $.ajax({
                 url: url_full, type: 'get', dataType: 'html',

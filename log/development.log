@@ -80522,3 +80522,1056 @@ Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.4ms)
 
 Started GET "/assets/results.js?_=1356615786321" for 127.0.0.1 at 2012-12-27 08:43:06 -0500
 Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-27 08:45:22 -0500
+Connecting to database specified by database.yml
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-27 08:45:23 -0500
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-27 08:45:23 -0500
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-27 08:45:23 -0500
+Served asset /htmlcodes.css - 200 OK (1ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-27 08:45:23 -0500
+Served asset /uploads.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-27 08:45:23 -0500
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-27 08:45:23 -0500
+Served asset /load.gif - 200 OK (1ms)
+
+
+Started GET "/search?query=" for 127.0.0.1 at 2012-12-27 08:45:25 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>""}
+  [1m[36mHtmlcode Load (0.4ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 94ms (Views: 6.8ms | ActiveRecord: 22.9ms)
+
+
+Started GET "/assets/results.js?_=1356615925362" for 127.0.0.1 at 2012-12-27 08:45:25 -0500
+Served asset /results.js - 200 OK (1ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-27 08:45:27 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[35mHtmlcode Load (0.4ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')
+  Rendered htmlcodes/search.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356615927600" for 127.0.0.1 at 2012-12-27 08:45:27 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=ar" for 127.0.0.1 at 2012-12-27 08:45:27 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"ar"}
+  [1m[36mHtmlcode Load (0.3ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%ar%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/results.js?_=1356615927839" for 127.0.0.1 at 2012-12-27 08:45:27 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=arr" for 127.0.0.1 at 2012-12-27 08:45:43 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"arr"}
+  [1m[35mHtmlcode Load (0.4ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%arr%')
+  Rendered htmlcodes/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356615943714" for 127.0.0.1 at 2012-12-27 08:45:43 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=ar" for 127.0.0.1 at 2012-12-27 08:45:46 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"ar"}
+  [1m[36mHtmlcode Load (0.4ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%ar%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356615946255" for 127.0.0.1 at 2012-12-27 08:45:46 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-27 11:18:58 -0500
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 235ms (Views: 234.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-27 11:18:59 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-27 11:18:59 -0500
+Served asset /htmlcodes.css - 200 OK (2ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-27 11:18:59 -0500
+Served asset /uploads.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-27 11:18:59 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-27 11:18:59 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-27 11:19:00 -0500
+Served asset /load.gif - 304 Not Modified (17ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 14:28:05 -0500
+Connecting to database specified by database.yml
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 160ms (Views: 159.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-28 14:28:06 -0500
+Served asset /htmlcodes.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 14:28:06 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-28 14:28:06 -0500
+Served asset /uploads.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 14:28:06 -0500
+Served asset /application.js - 200 OK (22ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 14:28:06 -0500
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-28 14:28:07 -0500
+Served asset /load.gif - 304 Not Modified (353ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 14:28:50 -0500
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 29ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-28 14:28:50 -0500
+Served asset /htmlcodes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 14:28:50 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-28 14:28:50 -0500
+Served asset /uploads.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 14:28:50 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 14:28:50 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-28 14:28:50 -0500
+Served asset /load.gif - 304 Not Modified (25ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:28:59 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[36mHtmlcode Load (0.5ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 287ms (Views: 21.7ms | ActiveRecord: 156.5ms)
+
+
+Started GET "/search?query=ar" for 127.0.0.1 at 2012-12-28 14:28:59 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"ar"}
+  [1m[35mHtmlcode Load (0.3ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%ar%')
+  Rendered htmlcodes/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/results.js?_=1356722941216" for 127.0.0.1 at 2012-12-28 14:29:01 -0500
+Served asset /results.js - 200 OK (52ms)
+
+
+Started GET "/assets/results.js?_=1356722941222" for 127.0.0.1 at 2012-12-28 14:29:01 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:29:08 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[36mHtmlcode Load (0.4ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356722948987" for 127.0.0.1 at 2012-12-28 14:29:08 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=ad" for 127.0.0.1 at 2012-12-28 14:29:09 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"ad"}
+  [1m[35mHtmlcode Load (0.4ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%ad%')
+  Rendered htmlcodes/search.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356722949453" for 127.0.0.1 at 2012-12-28 14:29:09 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:29:13 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[36mHtmlcode Load (0.3ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/results.js?_=1356722953427" for 127.0.0.1 at 2012-12-28 14:29:13 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=" for 127.0.0.1 at 2012-12-28 14:29:19 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>""}
+  [1m[35mHtmlcode Load (0.5ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%%')
+  Rendered htmlcodes/search.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 79ms (Views: 7.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/results.js?_=1356722959851" for 127.0.0.1 at 2012-12-28 14:29:19 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=" for 127.0.0.1 at 2012-12-28 14:29:28 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>""}
+  [1m[36mHtmlcode Load (0.4ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356722968855" for 127.0.0.1 at 2012-12-28 14:29:28 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:38:04 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[35mHtmlcode Load (30.7ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')
+  Rendered htmlcodes/search.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 178ms (Views: 128.8ms | ActiveRecord: 30.7ms)
+
+
+Started GET "/assets/results.js?_=1356723484599" for 127.0.0.1 at 2012-12-28 14:38:04 -0500
+Served asset /results.js - 200 OK (16ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:38:07 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[36mHtmlcode Load (0.4ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 49ms (Views: 9.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356723487563" for 127.0.0.1 at 2012-12-28 14:38:07 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:41:19 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[35mHtmlcode Load (0.4ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')
+  Rendered htmlcodes/search.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356723679839" for 127.0.0.1 at 2012-12-28 14:41:19 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=ar" for 127.0.0.1 at 2012-12-28 14:41:19 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"ar"}
+  [1m[36mHtmlcode Load (0.4ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%ar%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356723680014" for 127.0.0.1 at 2012-12-28 14:41:20 -0500
+Served asset /results.js - 200 OK (7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 14:42:29 -0500
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (1.6ms)
+Compiled application.js  (43ms)  (pid 9064)
+Completed 200 OK in 336ms (Views: 336.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 14:42:30 -0500
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-28 14:42:30 -0500
+Served asset /uploads.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-28 14:42:30 -0500
+Served asset /htmlcodes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 14:42:30 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 14:42:30 -0500
+Served asset /application.js - 200 OK (24ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-28 14:42:30 -0500
+Served asset /load.gif - 304 Not Modified (18ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:42:32 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[35mHtmlcode Load (0.4ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')
+  Rendered htmlcodes/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356723752522" for 127.0.0.1 at 2012-12-28 14:42:32 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:42:38 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[36mHtmlcode Load (0.5ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/results.js?_=1356723758311" for 127.0.0.1 at 2012-12-28 14:42:38 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=are" for 127.0.0.1 at 2012-12-28 14:42:38 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"are"}
+  [1m[35mHtmlcode Load (0.4ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%are%')
+  Rendered htmlcodes/search.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356723758563" for 127.0.0.1 at 2012-12-28 14:42:38 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=are" for 127.0.0.1 at 2012-12-28 14:42:38 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"are"}
+  [1m[36mHtmlcode Load (0.3ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%are%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/results.js?_=1356723758611" for 127.0.0.1 at 2012-12-28 14:42:38 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=ar" for 127.0.0.1 at 2012-12-28 14:42:39 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"ar"}
+  [1m[35mHtmlcode Load (0.4ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%ar%')
+  Rendered htmlcodes/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356723759915" for 127.0.0.1 at 2012-12-28 14:42:39 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:42:44 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[36mHtmlcode Load (0.4ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356723764719" for 127.0.0.1 at 2012-12-28 14:42:44 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 14:43:05 -0500
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (0.6ms)
+Compiled application.js  (2ms)  (pid 9064)
+Completed 200 OK in 103ms (Views: 103.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 14:43:05 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-28 14:43:05 -0500
+Served asset /uploads.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-28 14:43:05 -0500
+Served asset /htmlcodes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 14:43:05 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 14:43:05 -0500
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-28 14:43:05 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:43:07 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[35mHtmlcode Load (0.4ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')
+  Rendered htmlcodes/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356723787369" for 127.0.0.1 at 2012-12-28 14:43:07 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=ar" for 127.0.0.1 at 2012-12-28 14:43:07 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"ar"}
+  [1m[36mHtmlcode Load (0.4ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%ar%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356723787613" for 127.0.0.1 at 2012-12-28 14:43:07 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=arr" for 127.0.0.1 at 2012-12-28 14:43:07 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"arr"}
+  [1m[35mHtmlcode Load (0.4ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%arr%')
+  Rendered htmlcodes/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356723787982" for 127.0.0.1 at 2012-12-28 14:43:07 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=ar" for 127.0.0.1 at 2012-12-28 14:43:11 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"ar"}
+  [1m[36mHtmlcode Load (0.4ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%ar%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356723791324" for 127.0.0.1 at 2012-12-28 14:43:11 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:43:11 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[35mHtmlcode Load (0.4ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')
+  Rendered htmlcodes/search.html.erb within layouts/application (31.9ms)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356723791732" for 127.0.0.1 at 2012-12-28 14:43:11 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:43:20 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[36mHtmlcode Load (32.8ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 56ms (Views: 21.0ms | ActiveRecord: 32.8ms)
+
+
+Started GET "/search?query=arr" for 127.0.0.1 at 2012-12-28 14:43:20 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"arr"}
+  [1m[35mHtmlcode Load (0.6ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%arr%')
+  Rendered htmlcodes/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/search?query=ar" for 127.0.0.1 at 2012-12-28 14:43:20 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"ar"}
+  [1m[36mHtmlcode Load (0.6ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%ar%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/results.js?_=1356723800177" for 127.0.0.1 at 2012-12-28 14:43:20 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/assets/results.js?_=1356723800188" for 127.0.0.1 at 2012-12-28 14:43:20 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/assets/results.js?_=1356723800224" for 127.0.0.1 at 2012-12-28 14:43:20 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=ar" for 127.0.0.1 at 2012-12-28 14:43:31 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"ar"}
+  [1m[35mHtmlcode Load (0.3ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%ar%')
+  Rendered htmlcodes/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/results.js?_=1356723811167" for 127.0.0.1 at 2012-12-28 14:43:31 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:43:31 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[36mHtmlcode Load (0.5ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/results.js?_=1356723811875" for 127.0.0.1 at 2012-12-28 14:43:31 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:43:35 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[35mHtmlcode Load (0.5ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')
+  Rendered htmlcodes/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/results.js?_=1356723815127" for 127.0.0.1 at 2012-12-28 14:43:35 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 14:44:34 -0500
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (0.6ms)
+Compiled application.css  (1ms)  (pid 9064)
+Completed 200 OK in 118ms (Views: 117.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-28 14:44:34 -0500
+Served asset /htmlcodes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-28 14:44:34 -0500
+Served asset /uploads.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 14:44:34 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 14:44:34 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 14:44:35 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-28 14:44:35 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 14:45:04 -0500
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (0.6ms)
+Compiled application.css  (0ms)  (pid 9064)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 14:45:04 -0500
+Served asset /application.css - 200 OK (27ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-28 14:45:04 -0500
+Served asset /uploads.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 14:45:04 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-28 14:45:04 -0500
+Served asset /htmlcodes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 14:45:04 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-28 14:45:04 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:45:06 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[36mHtmlcode Load (0.4ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356723906290" for 127.0.0.1 at 2012-12-28 14:45:06 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 14:45:15 -0500
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (0.6ms)
+Compiled application.css  (0ms)  (pid 9064)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 14:45:15 -0500
+Served asset /application.css - 200 OK (27ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-28 14:45:15 -0500
+Served asset /uploads.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 14:45:15 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-28 14:45:15 -0500
+Served asset /htmlcodes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 14:45:15 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-28 14:45:15 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 14:45:19 -0500
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (0.6ms)
+Compiled application.css  (0ms)  (pid 9064)
+Completed 200 OK in 64ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-28 14:45:19 -0500
+Served asset /uploads.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 14:45:19 -0500
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 14:45:19 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 14:45:19 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-28 14:45:19 -0500
+Served asset /htmlcodes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-28 14:45:19 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 14:45:34 -0500
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (0.6ms)
+Compiled application.css  (0ms)  (pid 9064)
+Completed 200 OK in 61ms (Views: 61.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 14:45:34 -0500
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 14:45:34 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-28 14:45:34 -0500
+Served asset /htmlcodes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 14:45:34 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-28 14:45:34 -0500
+Served asset /uploads.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-28 14:45:34 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:45:40 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[35mHtmlcode Load (0.4ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')
+  Rendered htmlcodes/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356723940373" for 127.0.0.1 at 2012-12-28 14:45:40 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 14:46:05 -0500
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (0.6ms)
+Compiled application.css  (0ms)  (pid 9064)
+Completed 200 OK in 52ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-28 14:46:05 -0500
+Served asset /htmlcodes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 14:46:05 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 14:46:05 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-28 14:46:05 -0500
+Served asset /uploads.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 14:46:05 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-28 14:46:05 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:46:06 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[36mHtmlcode Load (0.5ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/results.js?_=1356723966664" for 127.0.0.1 at 2012-12-28 14:46:06 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=ar" for 127.0.0.1 at 2012-12-28 14:46:06 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"ar"}
+  [1m[35mHtmlcode Load (0.4ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%ar%')
+  Rendered htmlcodes/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356723966793" for 127.0.0.1 at 2012-12-28 14:46:06 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 14:46:17 -0500
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (0.6ms)
+Compiled application.css  (30ms)  (pid 9064)
+Completed 200 OK in 56ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 14:46:17 -0500
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 14:46:17 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-28 14:46:17 -0500
+Served asset /htmlcodes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 14:46:17 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-28 14:46:17 -0500
+Served asset /uploads.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-28 14:46:17 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/search?query=ar" for 127.0.0.1 at 2012-12-28 14:46:20 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"ar"}
+  [1m[36mHtmlcode Load (0.5ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%ar%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:46:20 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[35mHtmlcode Load (0.4ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')
+  Rendered htmlcodes/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356723980039" for 127.0.0.1 at 2012-12-28 14:46:20 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/assets/results.js?_=1356723980108" for 127.0.0.1 at 2012-12-28 14:46:20 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 14:46:52 -0500
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (0.6ms)
+Compiled application.css  (0ms)  (pid 9064)
+Completed 200 OK in 11ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 14:46:52 -0500
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-28 14:46:52 -0500
+Served asset /htmlcodes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 14:46:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-28 14:46:52 -0500
+Served asset /uploads.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 14:46:52 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-28 14:46:52 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 14:47:10 -0500
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (0.6ms)
+Compiled application.css  (1ms)  (pid 9064)
+Completed 200 OK in 49ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 14:47:10 -0500
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 14:47:10 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-28 14:47:10 -0500
+Served asset /uploads.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-28 14:47:10 -0500
+Served asset /htmlcodes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 14:47:10 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-28 14:47:10 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 14:47:22 -0500
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (0.6ms)
+Compiled application.css  (1ms)  (pid 9064)
+Completed 200 OK in 49ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 14:47:22 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-28 14:47:22 -0500
+Served asset /htmlcodes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 14:47:22 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-28 14:47:22 -0500
+Served asset /uploads.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 14:47:22 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-28 14:47:22 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 14:47:26 -0500
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (0.6ms)
+Compiled application.css  (0ms)  (pid 9064)
+Completed 200 OK in 14ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2012-12-28 14:47:26 -0500
+Served asset /uploads.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2012-12-28 14:47:26 -0500
+Served asset /htmlcodes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 14:47:26 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 14:47:26 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 14:47:26 -0500
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2012-12-28 14:47:26 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:47:41 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[36mHtmlcode Load (0.6ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 11ms (Views: 7.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/results.js?_=1356724061771" for 127.0.0.1 at 2012-12-28 14:47:41 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=ar" for 127.0.0.1 at 2012-12-28 14:47:41 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"ar"}
+  [1m[35mHtmlcode Load (0.4ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%ar%')
+  Rendered htmlcodes/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356724061957" for 127.0.0.1 at 2012-12-28 14:47:41 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=arr" for 127.0.0.1 at 2012-12-28 14:47:42 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"arr"}
+  [1m[36mHtmlcode Load (0.4ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%arr%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356724062192" for 127.0.0.1 at 2012-12-28 14:47:42 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=ar" for 127.0.0.1 at 2012-12-28 14:47:50 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"ar"}
+  [1m[35mHtmlcode Load (0.6ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%ar%')
+  Rendered htmlcodes/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/results.js?_=1356724070103" for 127.0.0.1 at 2012-12-28 14:47:50 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=a" for 127.0.0.1 at 2012-12-28 14:47:50 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"a"}
+  [1m[36mHtmlcode Load (0.4ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%a%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1356724070732" for 127.0.0.1 at 2012-12-28 14:47:50 -0500
+Served asset /results.js - 200 OK (0ms)

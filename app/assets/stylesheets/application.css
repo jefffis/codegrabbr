@@ -145,6 +145,12 @@ body {
 h1, form, .results, ul, li, .first {
 	width:100%;
 }
+h1 {
+	box-shadow:0 0 1px #052f3c, 0 0 10px #042b37, 0 0 25px #02232d, 0 -1px 0 rgba(0,0,0,0.1) inset;
+}
+h1:active a {
+	color:rgba(255,255,255,0.85);
+}
 .results {
 	font-size:100%;
 	display:none;
