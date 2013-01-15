@@ -37,6 +37,7 @@ production:
   reconnect: false
   database: html_codes_production
   pool: 5
-  username: root
-  password:
+  username: codegrab
+  password: WelOLQOk
   socket: /tmp/mysql.sock
+  host: rails-db3.browsermedia.com
