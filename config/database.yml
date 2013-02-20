@@ -35,9 +35,9 @@ production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: html_codes_production
+  database: codegrabbr
   pool: 5
-  username: codegrab
-  password: WelOLQOk
-  socket: /tmp/mysql.sock
+  username: codegrabbr
+  password: VBGW94gG
+  #socket: /tmp/mysql.sock
   host: rails-db3.browsermedia.com

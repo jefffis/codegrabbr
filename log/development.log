@@ -81899,3 +81899,134 @@ Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.4ms)
 
 Started GET "/assets/results.js?_=1358269546456" for 127.0.0.1 at 2013-01-15 12:05:46 -0500
 Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-23 10:28:39 -0500
+Connecting to database specified by database.yml
+Processing by HtmlcodesController#show as HTML
+  Rendered htmlcodes/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 170ms (Views: 170.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-23 10:28:40 -0500
+Served asset /application.css - 200 OK (21ms)
+
+
+Started GET "/assets/htmlcodes.css?body=1" for 127.0.0.1 at 2013-01-23 10:28:40 -0500
+Served asset /htmlcodes.css - 200 OK (3ms)
+
+
+Started GET "/assets/uploads.css?body=1" for 127.0.0.1 at 2013-01-23 10:28:40 -0500
+Served asset /uploads.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-23 10:28:40 -0500
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-23 10:28:40 -0500
+Served asset /jquery.js - 200 OK (8ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2013-01-23 10:28:40 -0500
+Served asset /load.gif - 200 OK (89ms)
+
+
+Started GET "/search?query=le" for 127.0.0.1 at 2013-01-23 10:28:46 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"le"}
+  [1m[36mHtmlcode Load (14.0ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%le%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 181ms (Views: 16.7ms | ActiveRecord: 68.4ms)
+
+
+Started GET "/search?query=lef" for 127.0.0.1 at 2013-01-23 10:28:46 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"lef"}
+  [1m[35mHtmlcode Load (0.4ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%lef%')
+  Rendered htmlcodes/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1358954926360" for 127.0.0.1 at 2013-01-23 10:28:46 -0500
+Served asset /results.js - 200 OK (49ms)
+
+
+Started GET "/assets/results.js?_=1358954926447" for 127.0.0.1 at 2013-01-23 10:28:46 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/assets/results.js?_=1358954926445" for 127.0.0.1 at 2013-01-23 10:28:46 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=left" for 127.0.0.1 at 2013-01-23 10:28:46 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"left"}
+  [1m[36mHtmlcode Load (0.4ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%left%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1358954926557" for 127.0.0.1 at 2013-01-23 10:28:46 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=" for 127.0.0.1 at 2013-01-23 10:28:56 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>""}
+  [1m[35mHtmlcode Load (0.5ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%%')
+  Rendered htmlcodes/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 10ms (Views: 6.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/results.js?_=1358954936982" for 127.0.0.1 at 2013-01-23 10:28:56 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=fr" for 127.0.0.1 at 2013-01-23 10:29:49 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"fr"}
+  [1m[36mHtmlcode Load (0.6ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%fr%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/results.js?_=1358954989664" for 127.0.0.1 at 2013-01-23 10:29:49 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=fr" for 127.0.0.1 at 2013-01-23 10:29:49 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"fr"}
+  [1m[35mHtmlcode Load (0.3ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%fr%')
+  Rendered htmlcodes/search.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/results.js?_=1358954989717" for 127.0.0.1 at 2013-01-23 10:29:49 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=fra" for 127.0.0.1 at 2013-01-23 10:29:49 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"fra"}
+  [1m[36mHtmlcode Load (0.3ms)[0m  [1mSELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%fra%')[0m
+  Rendered htmlcodes/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/results.js?_=1358954989952" for 127.0.0.1 at 2013-01-23 10:29:49 -0500
+Served asset /results.js - 200 OK (0ms)
+
+
+Started GET "/search?query=frac" for 127.0.0.1 at 2013-01-23 10:29:50 -0500
+Processing by HtmlcodesController#search as HTML
+  Parameters: {"query"=>"frac"}
+  [1m[35mHtmlcode Load (0.4ms)[0m  SELECT `htmlcodes`.* FROM `htmlcodes` WHERE (name LIKE '%frac%')
+  Rendered htmlcodes/search.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/results.js?_=1358954990190" for 127.0.0.1 at 2013-01-23 10:29:50 -0500
+Served asset /results.js - 200 OK (0ms)

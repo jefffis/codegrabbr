@@ -7,7 +7,7 @@ set :scm, 'git'
 set :scm_dir, 'jefffis'
 set :branch, 'master'
 set :deploy_host, 'gunray.browsermedia.com'
-set :deploy_to, '/var/www/vhosts/#{application}'
+set :deploy_to, '/var/www/vhosts/codegrabbr'
 role :app, 'gunray.browsermedia.com'
 role :web, 'gunray.browsermedia.com'
 
@@ -23,7 +23,7 @@ set :keep_releases, 5
 #	run "ln -s #{shared_path}/uploads #{release_path}/public/uploads"
 #end
 
-after 'deploy:update_code', :link_shared_directories, 'deploy:cleanup'
+#after 'deploy:update_code', :link_shared_directories, 'deploy:cleanup'
 
 # Automatically runs bundle install on the server. Puts gems into the shared directory.
 set :bundle_cmd, '/opt/ruby-ee/bin/bundle'
