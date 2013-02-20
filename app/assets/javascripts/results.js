@@ -15,6 +15,7 @@ $(function(){
 		var $this = $(this);
 		var this_copy = $this.find('div').html();
 		table.addClass('open');
+		$('html,body').animate({scrollTop:0});
 		selected.html(this_copy);
 
 		// animate scroll if position fixed is not supported, i.e. iOS 4 and below

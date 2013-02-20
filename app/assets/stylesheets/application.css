@@ -71,6 +71,7 @@ html {
 	transition:all .2s ease-out;
 }
 .extra.open {
+	position:absolute;
 	top:0;
 }
 body {
